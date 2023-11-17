@@ -1,0 +1,33 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: cursive;}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: black;
+    transition: 0.3s;
+}
+.box1{
+    border-radius: 134px;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(213, 20, 7);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.15s;
+    font-size: 25px;
+    
+}
+.bodyOfButton{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
